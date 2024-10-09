@@ -4,7 +4,7 @@ function SubMenu() {
   return (
     
     <aside className="flex  gap-4">
-      <ul className="flex flex-col gap-1 bg-blue-700 text-white p-10 m-10">
+      <ul className="flex flex-col gap-1 bg-blue-700 text-white p-10 m-10 rounded-xl">
         <li>
           <Link href="/tienda/electronica">Electronica</Link>
         </li>

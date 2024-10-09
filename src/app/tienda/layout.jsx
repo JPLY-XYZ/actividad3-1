@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         <div className="fixed ">
           <SubMenu />
         </div>
-        <div className="ml-60">{children}</div>
+        <div className="ml-60 p-5">{children}</div>
       </aside>
   );
 }
