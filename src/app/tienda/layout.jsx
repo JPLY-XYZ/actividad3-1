@@ -7,13 +7,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <tbody className="flex">
+      <aside className="flex">
         <div className="fixed ">
           <SubMenu />
         </div>
         <div className="ml-60">{children}</div>
-      </tbody>
-    </html>
+      </aside>
   );
 }
